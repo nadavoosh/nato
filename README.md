@@ -14,7 +14,7 @@ ONE TWO THREE
 
 The bare `nato` commamnd will print the alphabet:
 ```
-nato
+$ nato
 a: ALFA
 b: BRAVO
 c: CHARLIE
