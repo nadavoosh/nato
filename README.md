@@ -15,11 +15,19 @@ ONE TWO THREE
 The bare `nato` commamnd will print the alphabet:
 ```
 $ nato
-a: ALFA
-b: BRAVO
-c: CHARLIE
-d: DELTA
-// etc...
+a: ALFA       n: NOVEMBER
+b: BRAVO      o: OSCAR
+c: CHARLIE    p: PAPA
+d: DELTA      q: QUEBEC
+e: ECHO       r: ROMEO
+f: FOXTROT    s: SIERRA
+g: GOLD       t: TANGO
+h: HOTEL      u: UNIFORM
+i: INDIA      v: VICTOR
+j: JULIETT    w: WHISKEY
+k: KILO       x: X-RAY
+l: LIMA       y: YANKEE
+m: MIKE       z: ZULU
 ```
 
 ## TODO

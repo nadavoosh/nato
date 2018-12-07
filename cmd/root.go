@@ -105,20 +105,28 @@ func getNATOMap(withExtras bool) map[string]string {
 
 func printMap(m map[string]string) {
 	var maxLenKey int
+	var maxLenVal int
 	 var keys []string
 
 	 for k := range m {
 		 keys = append(keys, k)
 		 if len(k) > maxLenKey {
             maxLenKey = len(k)
+		}
+		if len(m[k]) > maxLenVal {
+            maxLenVal = len(m[k])
         }
 	 }
 
 	 sort.Strings(keys)
 
-	 for _, k := range keys {
-		fmt.Println(k + ": " + strings.Repeat(" ", maxLenKey - len(k)) + strings.ToUpper(m[k]))
-	 }
+	 for i := 0; i < len(keys) / 2; i++ {
+		k := keys[i]
+		k2 := keys[i+len(keys)/2]
+		str1 := k + ": " + strings.Repeat(" ", maxLenKey - len(k)) + strings.ToUpper(m[k] + strings.Repeat(" ", maxLenVal - len(m[k])))
+		str2 := k2 + ": " + strings.Repeat(" ", maxLenKey - len(k2)) + strings.ToUpper(m[k2])
+		fmt.Println(str1 + "   " + str2)
+			 }
 }
 func phoneticize(s string, alphabet map[string]string) string {
 	var r string
