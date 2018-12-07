@@ -2,7 +2,7 @@
 `nato` is a simple tool to get [NATO spelling alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) translations.
 
 ## Installation
-`go install`
+Clone the repo with `git clone git@github.com:nadavoosh/nato.git`. Then `cd nato` and `go install`.
 
 ## Usage
 ```
