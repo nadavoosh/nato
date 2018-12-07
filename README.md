@@ -5,15 +5,16 @@
 `go install`
 
 ## usaage
-
-```$ nato hi there 123
+```
+$ nato hi there 123
 HOTEL INDIA
 TANGO HOTEL ECHO ROMEO ECHO
 ONE TWO THREE
 ```
 
 The bare `nato` commamnd will print the alphabet:
-```nato
+```
+nato
 a: ALFA
 b: BRAVO
 c: CHARLIE
