@@ -1,10 +1,10 @@
 # nato
 `nato` is a simple tool to get [NATO spelling alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) translations.
 
-## installing
+## Installation
 `go install`
 
-## usaage
+## Usage
 ```
 $ nato hi there 123
 HOTEL INDIA
