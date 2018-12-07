@@ -12,7 +12,8 @@ TANGO HOTEL ECHO ROMEO ECHO
 ONE TWO THREE
 ```
 
-The bare `nato` commamnd will print the alphabet: ```nato
+The bare `nato` commamnd will print the alphabet:
+```nato
 a: ALFA
 b: BRAVO
 c: CHARLIE
